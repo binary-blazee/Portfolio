@@ -6,196 +6,346 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <a href="#sec-1" class="Navbright">HOME</a>
-        <a href="#subheading" class="Navbright">ABOUT</a>
-        <a href="#sec-3" class="Navbright">SKILLS</a>
-        <a href="#sec-4" class="Navbright">PROJECTS</a>
-        <a href="#sec-5" class="Navbright">CONTACT</a>
-      </nav>
+      <div class="head">
+        <div class="mask-icon"><i class="fa-solid fa-user-secret"></i></div>
+       <nav>
+          <ul>
+            <li><a href="#sec-1" class="nav-links">Home</a></li>
+            <li><a href="#sec-2" class="nav-links">About</a></li>
+            <li><a href="#sec-3" class="nav-links">Skills</a></li>
+            <li><a href="#sec-4" class="nav-links">Projects</a></li>
+            <li><a href="#sec-5" class="nav-links">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="menu-btn">
+          <i class="fa-solid fa-bars icon"></i>
+        </div>
+      </div>
+     
     </header>
     <main>
       <section id="sec-1">
-      <div class="content-1">
-        <div class="home-intro">
-          <p>Hello, I'm</p>
-          <h2 id="myname">Naveenkumar</h2>
-          <p>Web Developer</p>
-          <button id="hire">Hire me</button>
+        <div class="content-1">
+          <div class="home-intro">
+            <p class="hello">Hello, I'm</p>
+            <p id="myname">Naveen<br />Kumar</p>
+            <p class="web-dev">Web Developer</p>
+            <button id="hire">Hire me</button>
+          </div>
+          <div id="photo">
+            <img
+              src="assets/images/Naveen.png"
+              alt="Naveen image"
+              height="600"
+              width="550"
+            />
+          </div>
         </div>
-        <div id="photo">
-          <img src="assets/images/Naveen.png"  alt="Naveen image" height="700px" width="500px" />
-        </div>
-      </div></section>
+      </section>
       <section id="sec-2">
-      <div class="subhead-section">
-        <div><h2  id="subheading">ABOUT ME</h2>
-        <hr id="underline" /></div>
-        <div id="about-1">
-       <img src="/assets/images/Naveen.png" alt="Naveen-image" width="500px" height="600px" class="about-pic">
-        <div id="content-about"><div id="intro"><h2>Hi There! I'm Naveenkumar</h2></div>
-        <div id="field"><p>Web Developer</p></div>
-        <div id="simple-about"><p>
-          I'm a passionate web developer who turns ideas into interactive
-          experiences. With a knack for crafting clean, responsive designs and
-          writing efficient, scalable code, I bring websites to life with both
-          functionality and flair.
-        </p></div>
-        <div id="bio-data"><ul class="list"><li>Birthday: 12/04/2004</li>
-        <li>Phone: 9791975452</li>
-        <li>Email: sknaveen005@gmail.com</li>
-        <li>Language: Tamil,English</li></ul></div>
-        <div ><button class="cv">Download CV</button></div>
-      </div></div></div></section>
-      <section id="sec-3">
-      <h2 id="subheading" class="subhead-section">MY SKILLS</h2>
-    <hr id="underline" />
-    <div class="skill-work">
-      <div>
-        <p class="skill-head">
-          All the skills that I have in that field of work are mentioned.
-        </p>
-        <p></p>
-      </div>
-      <div>
-        <div class="progress" style="width: 50%">
-          <span class="cont">HTML</span>
-          <span class="per">100%</span>
-          <div class="back">
-            <div class="line"></div>
-          </div>
-        </div>
-        <div class="progress" style="width: 50%">
-          <span class="cont">CSS</span>
-          <span class="per">100%</span>
-          <div class="back">
-            <div class="line"></div>
-          </div></div>
-          <div class="progress" style="width: 50%">
-            <span class="cont">Bootstrap</span>
-            <span class="per">100%</span>
-            <div class="back">
-              <div class="line"></div>
-            </div>
-        </div>
-        <div class="progress" style="width: 50%">
-          <span class="cont">UI/UX</span>
-          <span class="per-ui">50%</span>
-          <div class="back-ui">
-            <div class="line-ui"></div>
-          </div>
-      </div>
-      <div class="progress" style="width: 50%">
-        <span class="cont">Javascript</span>
-        <span class="js-per">30%</span>
-        <div class="back-js">
-          <div class="line-js"></div>
-        </div>
-    </div>
-    </div>
-  </section>
-    <section id="sec-4">
-    <h2 id="subheading" class="subhead-section">PROJECTS</h2>
-    <hr id="underline" />
-    <div>
-      <div class="projects">
-        <div class="project-bg">
-          <div><img src="/assets/images/grocery.png" alt="project grocery store"  id="project-img" width="250px" height="227px"/></div>
-          <div id="project-abt"><h3>Grocery Store</h3></div>
-          <div id="project-link"><a
-            href="https://binary-blazee.github.io/Grocery-Store/"
-            target="_blank"
-            >visit</a
-          ></div>
-        </div>
-        <div class="project-bg">
-          <div><img
-            src="/assets/images/design-2.png"
-            alt="css practice design"
-            width="250px"
-            height="227px"
-            id="project-img"
-          /></div>
-          <div  id="project-abt"><h3>CSS Practice</h3></div>
-          <div id="project-link"><a href="">visit</a></div>
-        </div>
-        
-          
-        
-      </div>
-    </div></section>
-    <section id="sec-5">
-      <div>
-        <h2 class="subhead-section" id="subheading">CONTACT ME</h2>
-        <hr id="underline">
-      <main></div>
-      <h3 id="con-hello">Just say Hello</h3>
-      <div id="equal">
-        <div id="message">
+        <div class="subhead-section">
           <div>
-          <form action="https://formsubmit.co/sknaveen005@gmail.com" method="post">
-            <div id="">
-    
-              <div><input type="text" placeholder="Your Name" required name="name" id="infor" /></div>
-              <div>
-                <input type="text" name="email" placeholder="Your Email" required id="infor" />
+            <h2 id="subheading">ABOUT ME</h2>
+            <hr id="underline" />
+          </div>
+          <div class="ab">
+            <div>
+              <img
+                id="about-1"
+                src="./assets/images/Naveen.png"
+                alt="Naveen-image"
+              />
+            </div>
+            <div>
+              <div id="content-about">
+                <div id="intro">
+                  <h2>Hi There! I'm Naveenkumar</h2>
+                </div>
+                <div id="field">
+                  <p>Web Developer</p>
+                </div>
+                <div id="simple-about">
+                  <p>
+                    I'm a passionate web developer who turns ideas into
+                    interactive experiences. With a knack for crafting clean,
+                    responsive designs and writing efficient, scalable code, I
+                    bring websites to life with both functionality and flair.
+                  </p>
+                </div>
+                <div id="bio-data">
+                  <div>
+                    <ul class="list">
+                      <li>Birthday</li>
+                      <li>Phone</li>
+                      <li>Email</li>
+                      <li>Language</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul class="list">
+                      <li>: 12/04/2004</li>
+                      <li>: +91 9791975452</li>
+                      <li>: sknaveen005@gmail.com</li>
+                      <li>: Tamil, English</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <button class="cv">Download CV</button>
+                </div>
               </div>
-    
-              <div><input type="text" placeholder="Your Subject" required name="subject" id="infor" /></div>
-              <div>
-                <textarea name="message" id="txt" placeholder="Your Message" required name="message" ></textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sec-3">
+        <h2 id="subheading" class="subhead-section">MY SKILLS</h2>
+        <hr id="underline" />
+        <div class="skill-work">
+          <div class="skill-parasec">
+            <p class="skill-head">
+              All the skills that I have in that field of work are mentioned.
+            </p>
+            <p class="skill-para">
+              I possess a diverse skill set in web development, including
+              proficiency in HTML, CSS, and JavaScript for crafting responsive
+              and engaging websites. My experience with frameworks like
+              Bootstrap and React enhances my ability to create dynamic user
+              experiences. Additionally, my understanding of UI/UX principles
+              ensures intuitive and visually appealing designs.
+            </p>
+          </div>
+          <div class="pr">
+            <div class="progress" style="width: 50%">
+              <span class="cont">HTML</span>
+              <span class="per">100%</span>
+              <div class="back">
+                <div class="line"></div>
               </div>
-    
-              <div><button type="submit" class="send-msg">Send message</button></div>
-            </div></div>
-    
+            </div>
+            <div class="progress" style="width: 50%">
+              <span class="cont">CSS</span>
+              <span class="per">100%</span>
+              <div class="back">
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="progress" style="width: 50%">
+              <span class="cont">Bootstrap</span>
+              <span class="per">100%</span>
+              <div class="back">
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="progress" style="width: 50%">
+              <span class="cont">UI/UX</span>
+              <span class="per-ui">50%</span>
+              <div class="back-ui">
+                <div class="line-ui"></div>
+              </div>
+            </div>
+            <div class="progress" style="width: 50%">
+              <span class="cont">JavaScript</span>
+              <span class="js-per">30%</span>
+              <div class="back-js">
+                <div class="line-js"></div>
+              </div>
+            </div>
+          </div>
         </div>
-        </form>
-        <div class="con-info">
-          <h2>Contact Information</h2>
-          <div class="mail"><p id="nk-em">Email</p>
-          <p>sknaveen005@gmail.com</p></div>
-          <div class="phone"><p id="nk-ph">Phone</p>
-          <p>9791975452</p></div>
-          <div class="addr" ><p>Address</p>
-          <p>Chennai,India</p></div>
+      </section>
+      <section id="sec-4">
+        <h2 id="subheading" class="subhead-section">PROJECTS</h2>
+        <hr id="underline" />
+        <div>
+          <div class="projects">
+            <div class="project-bg">
+              <img
+                src="./assets/images/grocery.png"
+                alt="project grocery store"
+                id="project-img"
+              />
+              <div class="post-info">
+                <div class="nk-post-date">
+                  By:<a
+                    href="https://github.com/binary-blazee"
+                    target="_blank"
+                    class="admin"
+                    >Admin</a
+                  ><span class="st-post-date-divider">|</span
+                  ><span class="date">01-08-2024</span>
+                </div>
+                <div class="post-title">
+                  <a
+                    href="https://binary-blazee.github.io/Grocery-Store/"
+                    target="_blank"
+                    >Need a quick grocery solution?</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-bg">
+              <img
+                src="./assets/images/css design.png"
+                alt="css practice design"
+                id="project-img"
+              />
+              <div class="post-info">
+                <div class="nk-post-date">
+                  By:<a
+                    href="https://github.com/binary-blazee"
+                    target="_blank"
+                    class="admin"
+                    >Admin</a
+                  ><span class="st-post-date-divider">|</span
+                  ><span class="date">03-08-2024</span>
+                </div>
+                <div class="post-title">
+                  <a
+                    href="https://binary-blazee.github.io/css-practice/"
+                    target="_blank"
+                    >How cool can CSS design get?</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-bg">
+              <img
+                src="./assets/images/css web.jpeg"
+                alt="css practice design"
+                id="project-img"
+              />
+              <div class="post-info">
+                <div class="nk-post-date">
+                  By:<a
+                    href="https://github.com/binary-blazee"
+                    target="_blank"
+                    class="admin"
+                    >Admin</a
+                  ><span class="st-post-date-divider">|</span
+                  ><span class="date">07-03-2023</span>
+                </div>
+                <div class="post-title">
+                  <a href="/blog/blog-details"
+                    >How far can CSS take your designs?</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+      <section id="sec-5">
+        <div>
+          <h2 class="subhead-section" id="subheading">CONTACT ME</h2>
+          <hr id="underline" />
           
-    </section>
+          <div id="equal">
+            <div id="message">
+              <h3 id="con-hello">Just say Hello</h3>
+              <form
+                action="https://formsubmit.co/sknaveen005@gmail.com"
+                method="post"
+              >
+                <input
+                  type="text"
+                  placeholder="     Your Name"
+                  required
+                  name="name"
+                  id="infor"
+                />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="     Your Email"
+                  required
+                  id="infor"
+                />
+                <input
+                  type="text"
+                  placeholder="     Your Subject"
+                  required
+                  name="subject"
+                  id="infor"
+                />
+                <textarea
+                  name="message"
+                  id="txt"
+                  placeholder="     Your Message"
+                  required
+                ></textarea>
+                <button type="submit" class="send-msg">Send message</button>
+              </form>
+            </div>
+            <div class="con-info">
+              <h2>Contact Information</h2>
+              <p>Feel free to reach out for any inquiries or collaborations. You can contact me via email or phone, and I’ll get back to you promptly!</p>
+              <div class="con-icon">
+                <div class="ita">
+                  <i class="fa-regular fa-envelope" id="fnt-sze"></i>
+                  <div class="mail">
+                    <h3>Email</h3>
+                    <p>sknaveen005@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="con-icon">
+                <div class="ita">
+                  <i class="fa-solid fa-phone" id="fnt-sze"></i>
+                  <div class="mail">
+                    <h3>Phone</h3>
+                    <p>9791975452</p>
+                  </div>
+                </div>
+              </div>
+              <div class="con-icon">
+                <div class="ita"><i class="fa-solid fa-location-dot" id="fnt-sze"></i>
+                <div class="mail">
+                  <h3>Address</h3>
+                  <p>Chennai,India</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-icons">
+              <a class="social-icon"
+                href="https://www.linkedin.com/in/naveenkumar-p-677752199?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                ><div class="icon"><i class="fa-brands fa-linkedin-in"></i
+              ></div><span>LinkedIn</span></a>         
+              <a class="social-icon" href="https://github.com/binary-blazee" target="_blank"
+                ><div class="icon"><i class="fa-brands fa-github"></i>
+                </div><span>Github</span></a>
+                <a class="social-icon" href="https://github.com/binary-blazee" target="_blank"
+                ><div class="icon"><i class="fa-brands fa-instagram"></i>
+                </div><span>Instagram</span></a>
+              <a class="social-icon" href="https://x.com/Naveenk44269351" target="_blank"
+                ><div class="icon"><i class="fa-brands fa-twitter"></i
+              ></div><span>Twitter</span></a>
+            </div>
+          </div>
+        </div>
+        
+      </section>
     </main>
-    <footer>
-      <div id="icon">
-        <a
-          href="https://www.instagram.com/nav.xxn___?igsh=MWdrdDFpcWNvYm1lMA=="
-          target="_blank"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-        <a
-          href="https://www.facebook.com/profile.php?id=100043958332369&mibextid=ZbWKwL"
-          target="_blank"
-          ><i class="fa-brands fa-facebook"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/naveenkumar-p-677752199?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          target="_blank"
-          ><i class="fa-brands fa-linkedin-in"></i
-        ></a>
-        <a href="https://github.com/binary-blazee" target="_blank"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a href="https://x.com/Naveenk44269351" target="_blank"
-          ><i class="fa-brands fa-twitter"></i
-        ></a>
-      </div>
-    </footer>
+   
   </body>
 </html>
+
+<script>
+  const menu = document.querySelector(".menu-btn");
+  const menuList = document.querySelector("nav");
+  menu.addEventListener("click", () => {
+    menuList.classList.toggle("nav-show");
+  });
+</script>
