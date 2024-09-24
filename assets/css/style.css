@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 body {
   background-color: rgb(10, 16, 30);
@@ -32,7 +33,7 @@ nav ul {
   display: flex;
   list-style-type: none;
   justify-content: end;
-  gap: 5%;
+  gap: 10%;
   margin-right: 20px;
   
   padding: 20px 0;
@@ -65,13 +66,19 @@ nav ul {
     top: 40px;
     transition: all 0.5s;
     line-height: 30px;
+    width: 100%;
+    margin: 0;
   }
-  ul {
+  nav ul {
     flex-direction: column;
+    background-color:#0a101e;
+    margin: 0;
+    width: 100%;
+    
       }
   .nav-show {
     display: flex;
-    
+   
   }
   .menu-btn {
     display: block;
@@ -181,7 +188,6 @@ transform: scaley(0.9);
   margin: 0 auto;
 }
 #subheading {
-  /* margin-top: 50px; */
   color: #fbc747;
   text-align: center;
 }
@@ -421,20 +427,23 @@ gap: 30%;
 
 }
 
+
 /* Sec-3 Project section */
 #sec-4{
   height: 100vh;
   padding: 80px 0;
 }
-.projects {
+
+.projects {  
+  width: 80%;
+  margin: 0 auto;
+  overflow-x: scroll;
+  scrollbar-color:#0a101e #0a101e ;
   display: flex;
- justify-content: center;
- gap: 50px;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 15%;
-  overflow: hidden;
  
+ gap: 55px;
+  align-items: center;
+  margin-top: 15%; 
 }
 .projects:hover {
   scale: 1;
@@ -448,7 +457,7 @@ gap: 30%;
   border-radius: 5px;
   height: 250px;
   width: 350px;
-
+  
 }
 #project-img:hover{
   scale: 1.1;
@@ -490,14 +499,28 @@ gap: 30%;
 }
 @media(max-width:580px){
   #sec-4{
-    height: 100vh;
+    height: 0vh;
     margin-bottom: 150%;
+  }
+  .projects{
+    width: 100%;
+    padding: 0 10%;
   }
   #projects-img{
     height: 200px;
     width: 300px;
   }
 
+}
+@media(max-width:280px){
+  #sec-4{
+    margin-top: 150%;
+  }
+}
+@media(max-width:240px){
+  #sec-4{
+    margin-top: 500%;
+  }
 }
 
 /* Sec-5 Contact section */
@@ -528,7 +551,7 @@ gap: 30%;
 
 #infor {
   background-color: #101724;
-  color: rgba(232, 237, 247,0.4);
+  color: aliceblue;
   width: 100%;
   height: 50px;
   border-radius: 5px;
@@ -538,7 +561,7 @@ gap: 30%;
 #txt {
   height: 150px;
   width: 100%;
-  color: rgba(232, 237, 247,0.4);
+  color: aliceblue;
   background-color: #101724;
   border-radius: 5px;
   border: none;
@@ -631,9 +654,7 @@ gap: 30%;
   transition: all 0.3s ease-out;
 }
 
-.social-icons .social-icon:hover .icon {
-  
-}
+
 
 .social-icons .social-icon .icon i {
   font-size: 25px;
@@ -669,10 +690,21 @@ color: #fff;
     
   }
 }
+
+/* Footer section */
+
+footer{
+  background-color: #081023;
+}
+footer p{
+  text-align: center;
+  padding: 30px;
+}
 @media(max-width:580px){
-  .con-info{
-    margin-bottom: 50%;
+ footer{
+  height: 40px;
+ }
+  footer p{
+    margin-top: 100%;
   }
 }
-
-
