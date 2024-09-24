@@ -663,16 +663,12 @@ gap: 30%;
   transition: all 0.3s ease-out;
 }
 
-.social-icons .social-icon:hover .icon i {
-  color: #fff;
-}
 
 .social-icons .social-icon span {
   font-size: 20px;
 color: #fff;
   font-weight: 500;
   line-height: 50px;
-  margin-left: 10px;
   transition: all 0.3s ease-out;
 }
 
