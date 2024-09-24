@@ -304,10 +304,12 @@ nav ul {
   justify-content: center;
   padding-top: 50px;
   margin: 0 70px;
+  gap: 5%;
 }
 .skill-head {
   font-size: 30px;
   padding-top: 10%;
+  text-align: justify;
 }
 .skill-para {
   line-height: 25px;
