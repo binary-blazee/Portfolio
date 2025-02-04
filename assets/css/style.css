@@ -14,7 +14,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: rgba(10, 16, 30, 0.6);
+  background-color: rgba(10, 16, 30, 0.9);
 }
 .head {
   display: flex;
@@ -69,7 +69,7 @@ nav ul {
   }
   nav ul {
     flex-direction: column;
-    background-color: #0a101e;
+    background-color: rgba(10, 16, 30, 0.9);
     margin: 0;
     width: 100%;
   }
@@ -326,10 +326,10 @@ nav ul {
 }
 .per {
   position: absolute;
-  left: 187%;
+  left: 112%;
 }
 .back {
-  width: 100%;
+  width: 200%;
   height: 7px;
   background-color: white;
 }
@@ -337,25 +337,25 @@ nav ul {
 .line {
   height: 7px;
   background-color: #fbc747;
-  width: 600px;
+  width: 350px;
 }
-.per-ui {
+.per-py {
   position: absolute;
-  left: 97%;
+  left: 163%;
 }
-.back-ui {
+.back-py {
   height: 7px;
   width: 600px;
   background-color: white;
 }
 
-.line-ui {
+.line-py {
   height: 7px;
   background-color: #fbc747;
-  width: 300px;
+  width: 500px;
 }
 .js-per {
-  margin-left: 115px;
+  margin-left: 160px;
 }
 .back-js {
   height: 7px;
@@ -366,7 +366,22 @@ nav ul {
   height: 7px;
   background-color: #fbc747;
 
-  width: 200px;
+  width: 250px;
+}
+.back-ps {
+  height: 7px;
+  width: 600px;
+  background-color: white;
+}
+.line-ps {
+  height: 7px;
+  background-color: #fbc747;
+
+  width: 560px;
+}
+.per-ps{
+  position: absolute;
+  left: 183%;
 }
 @media (max-width: 990px) {
   #sec-3 {
@@ -415,7 +430,54 @@ nav ul {
     margin-left: 20%;
   }
 }
+#english{
+  height: 100vh;
+}
+.english-life-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding-top: 10%;
+}
+.english-skills, .life-skills {
+  width: 45%;
+}
 
+.english-skills h3, .life-skills h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #fbc747;
+}
+
+.english-skills ul, .life-skills ul {
+  list-style-type: none;
+  padding: 5% 0;
+}
+
+.english-skills ul li, .life-skills ul li {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.progress-bar {
+  background-color: #e0e0e0; 
+  border-radius: 10px;
+  height: 10px;
+  margin-top: 5px;
+}
+
+.bar {
+  background-color: #fbc747;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.rating-text {
+  margin-left: 10px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+}
 /* Sec-3 Project section */
 #sec-4 {
   height: 100vh;
